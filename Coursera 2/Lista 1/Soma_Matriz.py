@@ -17,4 +17,4 @@ def soma_matrizes(m1, m2):
   else:
     return False
 
-print(soma_matrizes([[1], [2], [3]], [[2, 3, 4], [5, 6, 7]]))
+print(soma_matrizes([[1, 2, 3], [4, 5, 6], [7, 8, 9]], [[10, 20, 30], [40, 50, 60],[70, 80, 90]]))
