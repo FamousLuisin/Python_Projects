@@ -1,0 +1,12 @@
+#Importar função random
+import random
+
+#Função para criar listas;
+def lista_grande(n):
+  lista = []
+  for i in range(n):
+    lista.append(random.randint(0, 100))
+  
+  return lista
+
+print(lista_grande(10))
